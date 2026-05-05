@@ -1,0 +1,21 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./workspace:/app/workspace
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - WORKSPACE_ROOT=/app/workspace
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
