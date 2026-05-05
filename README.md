@@ -23,6 +23,17 @@ Developed by **Doc Drag** (Pair-programming with AI).
 - **Backup your data**: Always use **Git** or maintain backups of your workspace before allowing the Agent to make changes.
 - The developers (Doc Drag) are not responsible for any damage caused by the use of this software.
 
+### 🤔 Why Open-Aigent? (and Alternatives)
+
+Let's be honest: If you're looking for a professional-grade, rock-solid AI coding experience, you should probably use **[Cline (formerly Claude Dev)](https://github.com/cline/cline)** or **[Cursor](https://www.cursor.com/)**. They are amazing and highly stable.
+
+**So why use Open-Aigent?**
+- **Standalone**: No IDE required. Run it on a server and access it via any browser.
+- **Local-First**: Deeply integrated with Ollama for 100% private, local agentic loops.
+- **Educational**: Designed for those who want to see *how* an Agentic IDE works under the hood. It's transparent and fully customizable.
+- **Fun**: It's a project created for the community, by the community (and a lot of AI help).
+
+
 
 ### 🛠️ Installation Guide
 
@@ -94,6 +105,17 @@ MIT License - Created by **Doc Drag**.
 - **ใช้งานด้วยความระมัดระวัง**: AI Agent มีความสามารถในการแก้ไขไฟล์ในเครื่องของคุณ แม้จะมีระบบยืนยันตัวตน แต่ AI ก็อาจทำงานผิดพลาดที่ส่งผลให้โค้ดพังหรือข้อมูลสูญหายได้
 - **สำรองข้อมูลเสมอ**: ควรใช้งานร่วมกับ **Git** หรือทำการสำรองข้อมูล (Backup) พื้นที่ทำงานของคุณเสมอก่อนอนุญาตให้ Agent แก้ไขโค้ด
 - ผู้พัฒนา (Doc Drag) จะไม่รับผิดชอบต่อความเสียหายใด ๆ ที่เกิดจากการใช้งานซอฟต์แวร์นี้
+
+### 🤔 ทำไมต้องใช้ Open-Aigent? (และทางเลือกอื่น)
+
+พูดกันตรง ๆ: ถ้าคุณกำลังมองหาประสบการณ์การเขียนโค้ดด้วย AI ที่มีความเสถียรสูงและเป็นมืออาชีพที่สุด เราขอแนะนำให้คุณไปใช้ **[Cline (Claude Dev)](https://github.com/cline/cline)** หรือ **[Cursor](https://www.cursor.com/)** ครับ พวกเขาทำไว้ได้ยอดเยี่ยมมาก ๆ
+
+**แล้ว Open-Aigent มีไว้ทำไม?**
+- **Standalone**: ไม่จำเป็นต้องมี IDE (เช่น VS Code) คุณสามารถรันบนเซิร์ฟเวอร์แล้วเข้าใช้งานผ่านเบราว์เซอร์จากที่ไหนก็ได้
+- **Local-First**: เน้นการเชื่อมต่อกับ Ollama แบบ 100% เพื่อความเป็นส่วนตัวสูงสุดในการรัน Agent
+- **เพื่อการศึกษา**: เหมาะสำหรับคนที่อยากเห็นว่า "เบื้องหลัง" ของ Agentic IDE ทำงานยังไง โค้ดของเราโปร่งใสและปรับแต่งได้ทุกบรรทัด
+- **ความสนุก**: มันคือโปรเจกต์ที่สร้างขึ้นโดยชุมชน เพื่อชุมชน (และได้รับความช่วยเหลืออย่างมากจาก AI)
+
 
 
 ### 🛠️ การติดตั้ง
